@@ -1,0 +1,89 @@
+{
+  "proyecto": {
+    "nombre": "Caseta de acceso Pasadena",
+    "nombre_corto": "Pasadena",
+    "ubicacion": "Hermosillo, Sonora",
+    "gerencia": "Metta Arquitectura y Construcción"
+  },
+  "semana": {
+    "numero": "08",
+    "periodo": "01 al 06 de junio, 2026",
+    "fecha_generacion": "09 junio 2026"
+  },
+  "avance_global": {
+    "programado_pct": 35.49,
+    "real_pct": 31.56,
+    "variacion_pct": -3.93,
+    "programado_mxn": 629971.44,
+    "real_mxn": 560216.78
+  },
+  "actividades": {
+    "realizadas": [
+      "Colocación de muro de block",
+      "Colado de castillos",
+      "Inicio de cimentación ciclópea",
+      "Habilitado y maniobra para instalación de polines 12\""
+    ],
+    "programadas": [
+      "Continuación de muro de block hasta altura de cubierta",
+      "Continuación de colado de castillos",
+      "Block dala (cerramiento)",
+      "Colado de cimentación ciclópea",
+      "Suministro y habilitado de PTRs"
+    ]
+  },
+  "problemas": [
+    {
+      "descripcion": "Apegarse al programa de obra y de suministros",
+      "estatus": "En proceso",
+      "fecha_limite": "",
+      "responsable": "Todos"
+    }
+  ],
+  "orden_partidas": [
+    "cimentacion",
+    "albanileria",
+    "plafones",
+    "acabados",
+    "estructura_techumbre",
+    "herrerias",
+    "carpinteria_canceleria",
+    "instalaciones_hidraulicas",
+    "instalaciones_electricas",
+    "aires_acondicionados",
+    "control_acceso",
+    "letrero"
+  ],
+  "partidas": {
+    "cimentacion":               { "nombre": "Cimentación",                      "programado": 100.00, "real": 95.04, "variacion": -4.96 },
+    "albanileria":               { "nombre": "Albañilería",                      "programado": 89.99,  "real": 66.18, "variacion": -23.81 },
+    "plafones":                  { "nombre": "Plafones",                         "programado": 0.00,   "real": 0.00,  "variacion": 0.00 },
+    "acabados":                  { "nombre": "Acabados",                         "programado": 0.00,   "real": 0.00,  "variacion": 0.00 },
+    "estructura_techumbre":      { "nombre": "Estructura techumbre",             "programado": 83.62,  "real": 79.30, "variacion": -4.32 },
+    "herrerias":                 { "nombre": "Herrerías",                        "programado": 0.00,   "real": 0.00,  "variacion": 0.00 },
+    "carpinteria_canceleria":    { "nombre": "Carpintería y cancelería",         "programado": 0.00,   "real": 0.00,  "variacion": 0.00 },
+    "instalaciones_hidraulicas": { "nombre": "Instalaciones hidráulicas",        "programado": 0.00,   "real": 0.00,  "variacion": 0.00 },
+    "instalaciones_electricas":  { "nombre": "Instalaciones eléctricas",         "programado": 76.14,  "real": 65.72, "variacion": -10.42 },
+    "aires_acondicionados":      { "nombre": "Sistema de aires acondicionados",  "programado": 4.60,   "real": 1.13,  "variacion": -3.47 },
+    "control_acceso":            { "nombre": "Control de acceso",                "programado": 0.00,   "real": 0.00,  "variacion": 0.00 },
+    "letrero":                   { "nombre": "Letrero",                          "programado": 0.00,   "real": 0.00,  "variacion": 0.00 }
+  },
+  "curva_financiera": {
+    "valor_total_mxn": 1775093.03,
+    "programado": [0.0, 0.1, 1.44, 10.13, 14.93, 19.65, 25.44, 30.34, 35.47, 37.21, 39.42, 44.53, 50.07, 55.43, 59.48, 68.13, 85.81, 98.46, 100.0],
+    "real": [0.0, 0.1, 1.44, 3.83, 10.45, 16.17, 20.96, 27.48, 31.56]
+  },
+  "abastecimientos": {
+    "entregados": [
+      { "concepto": "Cemento", "fecha_requerida": "1-jun", "estatus": "Suministrado", "importancia": "Alta" },
+      { "concepto": "Varilla", "fecha_requerida": "1-jun", "estatus": "Suministrado", "importancia": "Media" }
+    ],
+    "programados": [
+      { "concepto": "Pago a grúa de montajes estructura", "fecha_requerida": "15-jun", "estatus": "Solicitado", "importancia": "Alta" },
+      { "concepto": "PTR 6x6x3/16\"", "fecha_requerida": "16-jun", "estatus": "Se solicitará lunes", "importancia": "Alta" },
+      { "concepto": "Polines 6\"", "fecha_requerida": "16-jun", "estatus": "Se solicitará lunes", "importancia": "Media" },
+      { "concepto": "Cemento", "fecha_requerida": "18-ago", "estatus": "Se solicitará miércoles", "importancia": "Media" },
+      { "concepto": "Piedra laja para muros", "fecha_requerida": "18-jun", "estatus": "Se solicitará miércoles", "importancia": "Media" }
+    ]
+  }
+}

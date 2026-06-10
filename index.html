@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tablero de Control | Metta</title>
+<meta name="description" content="Tablero de control del proyecto __CLIENTE__ — Metta Arquitectura y Construcción.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<!-- CACHE-BUSTING: sube ?v=YYYYMMDD cuando cambies styles.css o shell.js -->
+<link rel="stylesheet" href="css/styles.css?v=20260515b">
+</head>
+<body>
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="topbar-logo">
+      <!-- Coloca el logo del cliente en assets/logo-cliente.png — si no existe, se muestra el texto -->
+      <img src="assets/logo-cliente.png" alt="Cliente" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'">
+      <span class="fallback" style="display:none" data-brand-cliente>CLIENTE</span>
+      <img src="assets/logo-metta.png" alt="Metta" onerror="this.style.display='none'">
+    </a>
+    <span class="topbar-tag">Tablero de Control · Metta</span>
+  </div>
+</nav>
+
+<!-- ============ HERO PRINCIPAL ============ -->
+<section class="home-hero">
+  <div class="home-hero-inner">
+    <div class="eyebrow fade-up">Gerencia de Proyecto · <span data-brand-gerencia>Metta Arquitectura y Construcción</span></div>
+    <h1 class="fade-up delay-1"><span id="hero-nombre">Cliente</span><br>Tablero de control</h1>
+    <p class="lead fade-up delay-2" id="hero-descripcion">
+      Seguimiento integral de la construcción de la caseta de acceso Pasadena. Avance físico-financiero,
+      programa de obra y reportes semanales — todo en un solo lugar.
+    </p>
+    <div class="home-meta fade-up delay-3">
+      <div class="home-meta-item">
+        <div class="lbl">Ubicación</div>
+        <div class="val" id="meta-ubicacion">Hermosillo, Sonora</div>
+      </div>
+      <div class="home-meta-item">
+        <div class="lbl">Avance de obra</div>
+        <div class="val" id="meta-semanas">—</div>
+      </div>
+      <div class="home-meta-item">
+        <div class="lbl">Inicio</div>
+        <div class="val" id="meta-inicio">—</div>
+      </div>
+      <div class="home-meta-item">
+        <div class="lbl">Término</div>
+        <div class="val" id="meta-fin">—</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BANDA DE INDICADORES RÁPIDOS ============ -->
+<section class="quickstats">
+  <div class="quickstats-grid">
+    <div class="quickstat fade-up">
+      <div class="lbl">Avance real</div>
+      <div class="val accent" id="qs-real">—</div>
+      <div class="sub" id="qs-real-sub">Último reporte</div>
+    </div>
+    <div class="quickstat fade-up delay-1">
+      <div class="lbl">Avance programado</div>
+      <div class="val" id="qs-prog">—</div>
+      <div class="sub">A la fecha de corte</div>
+    </div>
+    <div class="quickstat fade-up delay-2">
+      <div class="lbl">Variación</div>
+      <div class="val" id="qs-var">—</div>
+      <div class="sub" id="qs-var-sub">Real vs. programado</div>
+    </div>
+    <div class="quickstat fade-up delay-3">
+      <div class="lbl">Días restantes</div>
+      <div class="val gold" id="qs-dias">—</div>
+      <div class="sub" id="qs-dias-sub">Para el término de obra</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GRID DE MÓDULOS ============ -->
+<section class="modules">
+  <div class="modules-header">
+    <h2>Módulos del tablero</h2>
+    <span class="count">3 módulos</span>
+  </div>
+  <div class="modules-grid">
+
+    <a href="resumen.html" class="module-card fade-up">
+      <div class="module-card-top">
+        <div class="module-icon">📊</div>
+        <div class="module-num">01</div>
+      </div>
+      <h3>Resumen general global</h3>
+      <p>Avance global del proyecto, monto ejercido, por ejercer y curva financiera. Se actualiza con el último reporte semanal.</p>
+      <div class="module-arrow">Ver resumen <span class="dot">→</span></div>
+    </a>
+
+    <a href="programa.html" class="module-card fade-up delay-1">
+      <div class="module-card-top">
+        <div class="module-icon">📅</div>
+        <div class="module-num">02</div>
+      </div>
+      <h3>Programa de obra</h3>
+      <p>Gantt interactivo exportado desde MS Project. Ruta crítica, avance por tarea y filtro Look Ahead. Actualizado semana a semana.</p>
+      <div class="module-arrow">Ver programa <span class="dot">→</span></div>
+    </a>
+
+    <a href="reportes.html" class="module-card fade-up delay-2">
+      <div class="module-card-top">
+        <div class="module-icon">📈</div>
+        <div class="module-num">03</div>
+      </div>
+      <h3>Reportes semanales</h3>
+      <p>Reporte de estatus semanal: avance físico-financiero, actividades realizadas y programadas, problemas críticos, abastecimientos y reporte fotográfico.</p>
+      <div class="module-arrow">Ver reportes <span class="dot">→</span></div>
+    </a>
+
+  </div>
+</section>
+
+<footer>
+  <div class="brand"><span data-brand-cliente>Cliente</span> <span>·</span> Tablero de Control</div>
+  <div><span data-brand-gerencia>Metta Arquitectura y Construcción</span> · Gerencia de Proyecto · <span data-brand-ubicacion>Ciudad, Estado</span></div>
+</footer>
+
+<script src="js/branding.js?v=20260514"></script>
+<script src="js/shell.js?v=20260514"></script>
+</body>
+</html>

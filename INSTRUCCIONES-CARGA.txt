@@ -1,0 +1,40 @@
+════════════════════════════════════════════════════════════════
+  CASETA DE ACCESO PASADENA · TABLERO DE CONTROL
+  Qué tienes que cargarme (3 espacios listos)
+════════════════════════════════════════════════════════════════
+
+1) IMAGEN DEL HERO
+   Archivo:  assets/hero-cliente.jpg
+   Qué es:   La foto/render grande de fondo de la portada (index.html).
+   Cómo:     Reemplaza el archivo placeholder por la imagen real de Pasadena.
+             Mantén EXACTAMENTE el nombre "hero-cliente.jpg".
+
+2) PROGRAMA DE OBRA
+   Archivo:  data/programa.xml
+   Qué es:   El cronograma que alimenta el Gantt (programa.html).
+   Cómo:     En MS Project: Archivo → Guardar como → XML.
+             Reemplaza data/programa.xml (ahora trae uno de demostración).
+             Mantén EXACTAMENTE el nombre "programa.xml".
+
+3) REPORTE SEMANAL (semana 08)
+   Archivo:  data/reportes/semana-08.json
+   Qué es:   Los datos del reporte de la semana en curso (08 de 18).
+   Cómo:     Abre el archivo (ya tiene la estructura lista) y llena los
+             valores reales: avance %, actividades, problemas, curva,
+             abastecimientos.
+   IMPORTANTE: cuando termines de llenarlo, abre data/reportes/index.json
+             y agrega "08" al arreglo "semanas_publicadas":
+                 "semanas_publicadas": ["08"]
+             Hasta que hagas esto, el resumen y los KPIs muestran "—".
+
+   ¿Semanas anteriores (01–07)? Copia semana-08.json como semana-07.json,
+   etc., llénalas y agrégalas al arreglo: ["01","02",...,"08"].
+
+────────────────────────────────────────────────────────────────
+  Datos base (ya cargados, edítalos si cambian):
+     data/proyecto.json  →  nombre, ubicación, fechas, semana 08/18
+  Fechas configuradas:  inicio 13/abr/2026 · término 10/ago/2026
+────────────────────────────────────────────────────────────────
+  Cómo verlo:  abre la carpeta en VS Code → Live Server → index.html
+               (NO abras el HTML con doble clic; necesita servidor local)
+════════════════════════════════════════════════════════════════

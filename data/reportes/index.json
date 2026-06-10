@@ -1,0 +1,11 @@
+{
+  "proyecto": {
+    "nombre": "Caseta de acceso Pasadena",
+    "nombre_corto": "Pasadena",
+    "ubicacion": "Hermosillo, Sonora",
+    "gerencia": "Metta Arquitectura y Construcción",
+    "total_semanas": 18,
+    "valor_total_mxn": 1775093.03
+  },
+  "semanas_publicadas": ["08"]
+}

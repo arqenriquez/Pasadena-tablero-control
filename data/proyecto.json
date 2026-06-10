@@ -1,0 +1,17 @@
+{
+  "proyecto": {
+    "nombre": "Caseta de acceso Pasadena",
+    "nombre_corto": "Pasadena",
+    "subtitulo": "Caseta de acceso y obra civil",
+    "ubicacion": "Hermosillo, Sonora",
+    "gerencia": "Metta Arquitectura y Construcción",
+    "cliente": "",
+    "semana_actual": 8,
+    "total_semanas": 18,
+    "fecha_inicio": "2026-04-13",
+    "fecha_fin": "2026-08-10",
+    "valor_contrato_mxn": 1775093.03,
+    "descripcion": "Tablero de control de la Caseta de acceso Pasadena: seguimiento integral de avance físico-financiero, programa de obra y reportes semanales.",
+    "descripcion_hero": "Seguimiento integral de la construcción de la caseta de acceso Pasadena. Avance físico-financiero, programa de obra y reportes semanales — todo en un solo lugar."
+  }
+}

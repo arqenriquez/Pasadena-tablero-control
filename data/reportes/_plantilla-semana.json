@@ -1,0 +1,74 @@
+{
+  "_INSTRUCCIONES": "Copia este archivo y renómbralo a semana-09.json, semana-10.json, etc. Llena los datos y agrega el número de semana al arreglo 'semanas_publicadas' de index.json. La curva_financiera usa porcentajes acumulados (0-100) por semana: 'programado' lleva 19 puntos (Inicio + 18 semanas) y 'real' crece una posición por semana reportada.",
+  "proyecto": {
+    "nombre": "Caseta de acceso Pasadena",
+    "nombre_corto": "Pasadena",
+    "ubicacion": "Hermosillo, Sonora",
+    "gerencia": "Metta Arquitectura y Construcción"
+  },
+  "semana": {
+    "numero": "00",
+    "periodo": "DD al DD de MES, AAAA",
+    "fecha_generacion": "DD mes AAAA"
+  },
+  "avance_global": {
+    "programado_pct": 0.00,
+    "real_pct": 0.00,
+    "variacion_pct": 0.00,
+    "programado_mxn": 0,
+    "real_mxn": 0
+  },
+  "actividades": {
+    "realizadas": ["Actividad realizada esta semana"],
+    "programadas": ["Actividad programada para la próxima semana"]
+  },
+  "problemas": [
+    {
+      "descripcion": "Descripción del problema",
+      "estatus": "En proceso",
+      "fecha_limite": "",
+      "responsable": "Responsable"
+    }
+  ],
+  "orden_partidas": [
+    "cimentacion",
+    "albanileria",
+    "plafones",
+    "acabados",
+    "estructura_techumbre",
+    "herrerias",
+    "carpinteria_canceleria",
+    "instalaciones_hidraulicas",
+    "instalaciones_electricas",
+    "aires_acondicionados",
+    "control_acceso",
+    "letrero"
+  ],
+  "partidas": {
+    "cimentacion":               { "nombre": "Cimentación",                      "programado": 0.00, "real": 0.00, "variacion": 0.00 },
+    "albanileria":               { "nombre": "Albañilería",                      "programado": 0.00, "real": 0.00, "variacion": 0.00 },
+    "plafones":                  { "nombre": "Plafones",                         "programado": 0.00, "real": 0.00, "variacion": 0.00 },
+    "acabados":                  { "nombre": "Acabados",                         "programado": 0.00, "real": 0.00, "variacion": 0.00 },
+    "estructura_techumbre":      { "nombre": "Estructura techumbre",             "programado": 0.00, "real": 0.00, "variacion": 0.00 },
+    "herrerias":                 { "nombre": "Herrerías",                        "programado": 0.00, "real": 0.00, "variacion": 0.00 },
+    "carpinteria_canceleria":    { "nombre": "Carpintería y cancelería",         "programado": 0.00, "real": 0.00, "variacion": 0.00 },
+    "instalaciones_hidraulicas": { "nombre": "Instalaciones hidráulicas",        "programado": 0.00, "real": 0.00, "variacion": 0.00 },
+    "instalaciones_electricas":  { "nombre": "Instalaciones eléctricas",         "programado": 0.00, "real": 0.00, "variacion": 0.00 },
+    "aires_acondicionados":      { "nombre": "Sistema de aires acondicionados",  "programado": 0.00, "real": 0.00, "variacion": 0.00 },
+    "control_acceso":            { "nombre": "Control de acceso",                "programado": 0.00, "real": 0.00, "variacion": 0.00 },
+    "letrero":                   { "nombre": "Letrero",                          "programado": 0.00, "real": 0.00, "variacion": 0.00 }
+  },
+  "curva_financiera": {
+    "valor_total_mxn": 1775093.03,
+    "programado": [0.0, 0.1, 1.44, 10.13, 14.93, 19.65, 25.44, 30.34, 35.47, 37.21, 39.42, 44.53, 50.07, 55.43, 59.48, 68.13, 85.81, 98.46, 100.0],
+    "real": [0.0]
+  },
+  "abastecimientos": {
+    "entregados": [
+      { "concepto": "", "fecha_requerida": "", "estatus": "Suministrado", "importancia": "Media" }
+    ],
+    "programados": [
+      { "concepto": "", "fecha_requerida": "", "estatus": "Solicitado", "importancia": "Alta" }
+    ]
+  }
+}
