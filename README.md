@@ -6,8 +6,8 @@ Sitio web **estático** (HTML + CSS + JavaScript vanilla, sin frameworks ni back
 
 **Estado:** semana 08 de 18 · inicio 13/abr/2026 · término 10/ago/2026.
 
-**Módulos activos en esta etapa:** Resumen General · Programa de Obra · Reportes Semanales.
-Bitácora, Checklist y Galería quedan pendientes para sesiones posteriores.
+**Módulos activos en esta etapa:** Resumen General · Programa de Obra · Reportes Semanales · PPC (Last Planner).
+El seguimiento PPC arranca en la **semana 09** (primera semana de Last Planner). Bitácora, Checklist y Galería quedan pendientes para sesiones posteriores.
 
 > 👉 **¿Qué cargar?** Lee [`INSTRUCCIONES-CARGA.txt`](INSTRUCCIONES-CARGA.txt) — los 3 espacios listos (hero, programa de obra, reporte semanal).
 >

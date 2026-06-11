@@ -1,0 +1,9 @@
+{
+  "_INSTRUCCIONES": "Lista de responsables que aparecen en el desplegable de la columna 'Responsable' del módulo PPC. Es configurable POR PROYECTO. El orden aquí es el orden del desplegable.",
+  "responsables": [
+    "Ing. Pedro Olmeda",
+    "Arq. Fernanda Romero",
+    "Arq. Jorge E. Enríquez",
+    "Ing. Marco de la Cruz"
+  ]
+}
