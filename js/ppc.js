@@ -643,6 +643,19 @@ async function init() {
 
   S.semanaCurso = detectarSemanaCurso(S.index);
 
+  // Si la semana detectada por fecha ya está CERRADA (o no hay match por fecha),
+  // se toma como "en curso" la última semana registrada que siga ABIERTA.
+  // Así, al cerrar una semana, la siguiente abierta queda por default al abrir el módulo
+  // (permite mostrar la próxima semana aunque su fecha aún no haya iniciado).
+  const cerradaPorNum = {};
+  S.index.semanas.forEach((s) => { cerradaPorNum[s.semana] = !!s.cierre; });
+  if (!S.semanaCurso || cerradaPorNum[S.semanaCurso]) {
+    const abiertas = S.index.semanas
+      .filter((s) => !s.cierre)
+      .sort((a, b) => parseInt(b.semana) - parseInt(a.semana));
+    if (abiertas.length) S.semanaCurso = abiertas[0].semana;
+  }
+
   // Selector de semanas (orden descendente: la más reciente arriba)
   const ordenadas = [...S.index.semanas].sort((a, b) => parseInt(b.semana) - parseInt(a.semana));
   const sel = $('#ppc-week');
