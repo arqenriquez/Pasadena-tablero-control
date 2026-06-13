@@ -1,0 +1,47 @@
+{
+  "semana": "09",
+  "periodo": "8 al 14 de junio 2026",
+  "fecha_cierre": "2026-06-13",
+  "responsable": "Arq. Jorge E. Enríquez",
+  "total": 5,
+  "cumplidas": 3,
+  "no_cumplidas": 2,
+  "ppc_pct": 60,
+  "metas": [
+    {
+      "actividad": "Continuación de muro de block hasta altura de cubierta",
+      "responsable": "Arq. Fernanda Romero",
+      "lote": "Albañilería",
+      "cumplida": false,
+      "motivo": "La actividad se detuvo para primero instalar los PTR diagonales"
+    },
+    {
+      "actividad": "Continuación de colado de castillos",
+      "responsable": "Arq. Fernanda Romero",
+      "lote": "Albañilería",
+      "cumplida": true,
+      "motivo": ""
+    },
+    {
+      "actividad": "Block dala (cerramiento)",
+      "responsable": "Arq. Fernanda Romero",
+      "lote": "Albañilería",
+      "cumplida": true,
+      "motivo": ""
+    },
+    {
+      "actividad": "Colado de cimentación ciclópea",
+      "responsable": "Arq. Fernanda Romero",
+      "lote": "Cimentación",
+      "cumplida": true,
+      "motivo": ""
+    },
+    {
+      "actividad": "Suministro y habilitado de PTRs",
+      "responsable": "Arq. Fernanda Romero",
+      "lote": "Estructura techumbre",
+      "cumplida": false,
+      "motivo": "Esta en proceso "
+    }
+  ]
+}
