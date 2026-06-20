@@ -2,6 +2,7 @@
   "_INSTRUCCIONES": "Registro de semanas del módulo PPC (Last Planner System). Para cada semana: 'metas' apunta al Excel con las metas/compromisos (lo subes tú a data/ppc/metas/); 'cierre' apunta al JSON de cierre (se genera al cerrar la semana con el botón del módulo y lo commiteas a data/ppc/cierres/). Si la semana sigue abierta, deja 'cierre' en null. La 'semana en curso' se detecta sola por la fecha (campo 'inicio', lunes de la semana). El PPC de Pasadena arranca en la semana 09 (primera semana de seguimiento Last Planner).",
   "semanas": [
     { "semana": "09", "periodo": "8 al 14 de junio 2026", "inicio": "2026-06-08", "metas": "metas/semana-09.xlsx", "cierre": "cierres/semana-09.json" },
-    { "semana": "10", "periodo": "15 al 21 de junio 2026", "inicio": "2026-06-15", "metas": "metas/semana-10.xlsx", "cierre": "cierres/semana-10.json" }
+    { "semana": "10", "periodo": "15 al 21 de junio 2026", "inicio": "2026-06-15", "metas": "metas/semana-10.xlsx", "cierre": "cierres/semana-10.json" },
+    { "semana": "11", "periodo": "22 al 28 de junio 2026", "inicio": "2026-06-22", "metas": "metas/semana-11.xlsx", "cierre": null }
   ]
 }
