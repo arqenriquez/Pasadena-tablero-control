@@ -1,0 +1,61 @@
+{
+  "semana": "11",
+  "periodo": "22 al 28 de junio 2026",
+  "fecha_cierre": "2026-06-27",
+  "responsable": "Arq. Jorge E. Enríquez",
+  "total": 7,
+  "cumplidas": 2,
+  "no_cumplidas": 5,
+  "ppc_pct": 29,
+  "metas": [
+    {
+      "actividad": "Instalación de polines secundarios de 6\"",
+      "responsable": "Ing. Pedro Olmeda",
+      "lote": "Estructura techumbre",
+      "cumplida": true,
+      "motivo": ""
+    },
+    {
+      "actividad": "Comprar Triplays de cubierta y tener en obra",
+      "responsable": "Ing. Marco de la Cruz",
+      "lote": "Plafones",
+      "cumplida": true,
+      "motivo": ""
+    },
+    {
+      "actividad": "Comprar Durocks de cubierta y tener en obra",
+      "responsable": "Ing. Marco de la Cruz",
+      "lote": "Plafones",
+      "cumplida": false,
+      "motivo": "No se compraron por que aún no se requieren, no se terminaron trabajos previos"
+    },
+    {
+      "actividad": "Terminar muro de Block hasta altura de cubierta",
+      "responsable": "Ing. Pedro Olmeda",
+      "lote": "Albañileria",
+      "cumplida": false,
+      "motivo": "No se termino al 100% - Falta de mas fuerza de trabajo"
+    },
+    {
+      "actividad": "Inicio de pegado de puedra laja en maceteras",
+      "responsable": "Ing. Pedro Olmeda",
+      "lote": "Acabados",
+      "cumplida": false,
+      "motivo": "No se inició - Falta de seguimiento al programa "
+    },
+    {
+      "actividad": "Conexiones a red principal de Agua y Drenaje",
+      "responsable": "Ing. Pedro Olmeda",
+      "lote": "Instalaciones Hidráulicas",
+      "cumplida": false,
+      "motivo": "No se realizaron - Falta de seguimiento al programa"
+    },
+    {
+      "actividad": "Cotizar 3 opciones de Impermeabilizante de cartón arenado",
+      "responsable": "Ing. Pedro Olmeda",
+      "lote": "Plafones",
+      "cumplida": false,
+      "motivo": "No se realizaron las cotizaciones y comparativa "
+    }
+  ]
+}
